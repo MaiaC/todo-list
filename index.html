@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="todo.css">
+		
+</head>
+<body>
+	<div id="main-container">
+		<img src="parchment-scroll.png" alt="parchment scroll background">
+		<div id="content">
+			<h1>Todo List</h1>
+			
+				<button onclick="handlers.toggleAll()" id="bold-button">&#10004</button>
+				<input id="addTodoText" type="text">
+				<button onclick="handlers.addTodo()" id="addTodoButton">&#10010</button>
+
+			<div id="list-div">
+				<ul style="list-style-type: none;">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>
