@@ -141,6 +141,45 @@ input:checked + label:after {
     transform: rotate(45deg);
 }
 
+@media only screen and (max-width: 650px) {
+	img {
+		width: 100vw;
+		height: 100vh;
+		max-height: 700px;
+		position: fixed;
+	}
+
+	#content {
+		width: 90vw;
+	}
+
+	input[type=text] {
+		width: 50vw;
+	}
+
+	#list-div {
+		width: 90vw;
+		height: 58vh;
+	}
+
+	ul {
+		width: 75vw;
+	}
+}
+
+@media only screen and (min-height: 800px) and (max-height: 850px) {
+	img {
+		max-height: 800px !important;
+	}
+
+	h1 {
+		margin-top: 40px;
+	}
+
+	#list-div {
+		height: ;
+	}
+}
 
 
 color scheme: #2c3531 black, #116466 dark blue/green, #d9b08c dark cream, #ffcb9a light cream, #d1e8e2 light blue
