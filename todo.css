@@ -41,7 +41,7 @@ input:checked ~ input[type="text"] {
 button {
 	border: none;
 	background-color: #116466;
-	color: #ffcb9a;
+	color: #ffcb9a !important;
 	outline: none;
 	cursor: pointer;
 }
