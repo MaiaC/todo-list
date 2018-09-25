@@ -52,7 +52,7 @@ button {
 	height: 20px;
 }
 
-.deleteButton,  /*#bold-button*/ {
+.deleteButton {
 	font-weight: bold;
 }
 
