@@ -89,6 +89,15 @@ input:disabled {
 	background-color: transparent;
 	border-color: transparent;
 	color: #ffdfcf;
+	-webkit-text-fill-color: #ffdfcf;
+	-webkit-opacity: 1 !important;
+	opacity: 1 !important;
+}
+
+input:checked ~ input:disabled {
+	text-decoration: line-through;
+	opacity: .5 !important;
+	-webkit-opacity: .5 !important;
 }
 
 li {
